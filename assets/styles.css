@@ -1,0 +1,64 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    width:50%;
+    margin:auto;
+}
+ul{
+    list-style: none;
+    display:flex;
+}
+
+li{
+    width:100%;
+    
+}
+
+.mostrecentwork{
+    background-color: darkorange;
+    width: 100%;
+}
+.worktoshow{
+    display:flex;
+    flex-wrap: wrap;
+}
+.item{
+    flex:1 1 400px;
+    height:100px;
+}
+.plum{
+    background-color: plum;
+}
+
+.aqua{
+    background-color: aqua;
+}
+
+.pink{
+    background-color: lightpink;
+}
+
+.lime{
+    background-color: lime;
+
+}
+
+.teal{
+    background-color:darkturquoise;
+}
+
+.grey{
+    background-color: lightslategray;
+}
+.me{
+    width:100%;
+}
+
+@media screen and (max-width:600px){
+    ul{
+        display:block; 
+    }
+    
+}
