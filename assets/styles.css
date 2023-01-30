@@ -9,16 +9,20 @@ h1{
 ul{
     list-style: none;
     display:flex;
+    justify-content:center;
 }
 
 li{
     width:100%;
+    margin:20px;
+    
     
 }
 
 .mostrecentwork{
     background-color: darkorange;
     width: 100%;
+    height:300px;
 }
 .worktoshow{
     display:flex;
@@ -27,6 +31,12 @@ li{
 .item{
     flex:1 1 400px;
     height:100px;
+    margin:20px;
+}
+.item:hover,
+ .mostrecentwork:hover{
+    cursor:grab;
+    border:medium double black;
 }
 .plum{
     background-color: plum;
@@ -54,11 +64,21 @@ li{
 }
 .me{
     width:100%;
+    display:flex;
 }
+
+a:hover{
+    color:purple;
+}
+
+
 
 @media screen and (max-width:600px){
     ul{
         display:block; 
+    }
+    .me{
+        flex-direction:column;
     }
     
 }
