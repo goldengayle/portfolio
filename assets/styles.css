@@ -10,7 +10,7 @@ h1{
 ul{
     list-style: none;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     
 }
 
@@ -24,6 +24,7 @@ li{
 .content{
     display:flex;
     justify-content: space-around;
+    align-items:center;
 }
 
 .mostrecentwork{
@@ -103,16 +104,18 @@ img.project{
     margin:50px;
     display:flex;
     justify-content:center;
+    flex-wrap: wrap;
 }
 
 .contactme{
-    display:flex;
+    display:block;
 }
+
 button{
-    background-color:lightsalmon;
     margin:20px;
-    height:60px;
     border-radius:20px;
+    padding:50px;
+    font-weight: 700;
 }
 a:hover{
     color:purple;
