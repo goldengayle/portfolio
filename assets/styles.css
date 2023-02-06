@@ -6,12 +6,12 @@ h1{
     width:50%;
     margin:auto;
     text-align:center;
+    text-size-adjust: 110%;
 }
 ul{
     list-style: none;
     display:flex;
-    justify-content:space-around;
-    
+    justify-content:space-evenly;
 }
 
 li{
@@ -36,13 +36,12 @@ li{
     justify-content:center;
 }
 
-figcaption{
-    background-color:darkorange;
-    position: absolute;
-    bottom: 50px;
-    left:200px;
-    padding:50px;
+/* this is a smaller image that will not be shown with smaller screens*/
+.smallscreen{
+    display:none
 }
+
+
 .recent{
     margin:50px;
 }
@@ -59,23 +58,35 @@ figcaption{
     border: 5px solid black;
     display:flex;
     justify-content:space-around;
-   
+}
 
+/*
+Code below was used in previous iterations
 img.project{
     padding: 5px 100px;
     display:flex;
     justify-content:space-around;
     height:100px;
-   
-}
+
+   figcaption{
+    background-color:darkorange;
+    position: absolute;
+    bottom: 50px;
+    left:200px;
+    padding:50px;
+} */
 
 
-}
+
+
+/* pseudo-class to add interactivity */
 .item:hover,
  .mostrecentwork:hover{
     cursor:grab;
     border:medium double black;
 }
+
+/* current background colors for featured projects */
 .plum{
     background-color: plum;
 }
@@ -92,7 +103,7 @@ img.project{
     background-color: lime;
 
 }
-
+/* future divs when I have more project */
 .teal{
     background-color:darkturquoise;
 }
@@ -100,6 +111,8 @@ img.project{
 .grey{
     background-color: lightslategray;
 }
+
+/* about me section*/
 .me{
     width:100%;
     margin:50px;
@@ -108,9 +121,6 @@ img.project{
     flex-wrap: wrap;
 }
 
-.contactme{
-    display:block;
-}
 
 button{
     margin:20px;
@@ -118,13 +128,15 @@ button{
     padding:50px;
     font-weight: 700;
 }
+
+/* links will turn purple when cursor hovers */
 a:hover{
     color:purple;
 }
 
 
-
-@media screen and (max-width:900px){
+/* Responsive to other screen sizes*/
+@media screen and (max-width:700px){
     ul{
         position:relative;
         display:block;
@@ -135,9 +147,26 @@ a:hover{
         display:inline-block;
     }
 
+    .content{
+        flex-direction: column;
+    }
+
+    .largescreen {
+        display:none;
+    }
+
+    .smallscreen{
+        display:contents;
+    }
+
+    item{
+        margin:2px;
+        padding:10px;
+    }
     .me{
         flex-direction:column;
         align-items:center;
+        width:30%;
     }
     .contactme{
         flex-direction: column;
