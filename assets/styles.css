@@ -27,6 +27,7 @@ li{
     align-items:center;
 }
 
+
 .mostrecentwork{
     background-color: darkorange;
     display:flex;
@@ -37,8 +38,8 @@ li{
 
 figcaption{
     background-color:darkorange;
-    position:absolute;
-    bottom: 100px;
+    position: absolute;
+    bottom: 50px;
     left:200px;
     padding:50px;
 }
