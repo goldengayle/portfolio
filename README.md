@@ -5,7 +5,7 @@ This project is a landing page for my future developer portfolio. The project ga
 ## Usage
 AS A USER I want to find out if Gayle is a good fit for my organization. 
 <a href="https://goldengayle.github.io/portfolio/">
-<img src="assets/images/portfolioscreenshotlarge.png" alt="screenshot of webpage" width=50%>
+<img src="assets/images/portfolioscreenshotfullscreen.png" alt="screenshot of webpage" width=50%>
 <img src="assets/images/portfolioscreenshotmobile.png" alt="screenshot of webpage for mobile phones" width=50%>
 
 
