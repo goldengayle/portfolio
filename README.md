@@ -1,14 +1,12 @@
-# Portfolio (Challenge #2)
+# <a href="https://goldengayle.github.io/portfolio/"> Portfolio Portfolio (Challenge #2)</a>
 ## Description
 This project is a landing page for my future developer portfolio. The project gave me an opportunity to practice creating a website with HTML and CSS, specifically considering how to use flexbox and media queries to have a site responsive to screen readers and different sized screens. This portfolio site currently uses knitting images as placeholders for future development projects.
 
 ## Usage
 AS A USER I want to find out if Gayle is a good fit for my organization. 
-<a href="https://goldengayle.github.io/portfolio/">
-<img src="assets/images/portfolioscreenshotlarge.png" alt="screenshot of webpage" width=50%>
-<img src="assets/images/portfolioscreenshotmobile.png" alt="screenshot of webpage for mobile phones" width=50%>
 
-
+<img src="assets/images/portfolioscreenshotfullscreen.png" alt="screenshot for computer">
+  <a href= "assets/images/portfolioscreenshotmobile.png"> click here for mobile screenshot </a>
 
 ## Installation
 N/A
